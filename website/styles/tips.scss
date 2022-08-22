@@ -1,5 +1,6 @@
 .tips{
     margin-top: 8px;
+    
     @include for-large-up{
         display: none;
     }

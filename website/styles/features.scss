@@ -1,6 +1,7 @@
 .feautures{
     display: flex;
     position: relative;
+    
     @include for-large-down{
         display: none;
     }
