@@ -5,41 +5,48 @@
     display: flex;
     align-items: center;
     padding-left: 15px;
-}
-.navigation{
-        display: none;
-}
-.header__button{
-    display: none;
-}
-.header__menu-button{
-    width: 58px;
-    border: none;
-    border-left: 1px solid #00000026;
-    height: 100%;
-    margin-left: auto;
-    background: transparent;
-}
-.header__menu-ikon{
-    width: 18px;
-    height: 13px;
-    background-image: url('img/icon-gamburger.png');
-    display: inline-block;
-}
-@media screen and (min-width: 400px) {
-    .top-section{
-        background-color: #F3C6BD;
-        padding-top: 39px;
-    }
-    .header__menu-button{
+    &__button {
         display: none;
     }
-    .header{
+
+    &__menu-button {
+        width: 58px;
+        border: none;
+        border-left: 1px solid #00000026;
+        height: 100%;
+        margin-left: auto;
+        background: transparent;
+    }
+
+    &__menu-ikon {
+        width: 18px;
+        height: 13px;
+        background-image: url('https: //gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png');
+        display: inline-block;
+    }
+    @include for-large-up {
         width: 1140px;
         height: 62px;
         margin: auto;
         display: flex;
     }
+    &__menu-button {
+        @include for-large-up {
+            display: none;
+        }
+    }
+}
+.navigation{
+        display: none;
+}
+
+
+@media screen and (min-width: 400px) {
+    .top-section{
+        background-color: #F3C6BD;
+        padding-top: 39px;
+    }
+    
     .navigation{
         display: block;
         margin-left: auto;
