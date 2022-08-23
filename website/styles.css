@@ -129,7 +129,7 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
-  color: #009b4d;
+  color: #009B4D;
   margin: 0;
 }
 .feautures__title {
@@ -165,10 +165,10 @@
   margin-top: 8px;
   margin-bottom: 0;
   padding-bottom: 20px;
-  border-bottom: 3px solid #3142C6;
+  border-bottom: 3px solid #3040C4;
 }
 .feautures__advantage-item {
-  border-bottom: 1px solid rgba(43, 41, 45, 0.1490196078);
+  border-bottom: 1px solid #2B292D;
   margin-top: 21px;
   padding-bottom: 22px;
   display: flex;
@@ -201,7 +201,7 @@
   font-size: 18px;
   margin-top: 30px;
   width: 360px;
-  color: #2b292d;
+  color: rgba(43, 41, 45, 0.6);
 }
 @media screen and (min-width: 1400px) {
   .footer__description {
@@ -299,7 +299,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  color: #2b292d;
+  color: rgba(43, 41, 45, 0.6);
   padding: 0;
   margin: 0;
   margin-top: 18px;
@@ -380,7 +380,7 @@
   font-size: 18px;
   line-height: 25px;
   text-align: center;
-  color: #2b292d;
+  color: rgba(43, 41, 45, 0.6);
 }
 
 .header {
@@ -666,9 +666,58 @@
   font-size: 14px;
   line-height: 22px;
   text-align: center;
-  color: #2b292d;
+  color: rgba(43, 41, 45, 0.6);
   margin-top: 19px;
   max-width: 100%;
+}
+
+.order {
+  padding: 50px 15px;
+  background-color: #F4F5F7;
+}
+.order__illusration {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.order__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.25px;
+  margin-top: 40px;
+}
+.order__text {
+  font-size: 22px;
+  line-height: 32px;
+  margin: 0;
+  margin-top: 18px;
+}
+.order__email {
+  margin-top: 40px;
+  background: #FFFFFF;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  border-radius: 2px;
+  height: 48px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 13px;
+}
+.order__email::placeholder {
+  color: #2B292D;
+}
+.order__button {
+  margin-top: 12px;
+  width: 100%;
+}
+.order__terms {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(43, 41, 45, 0.6);
+}
+.order__terms-link {
+  color: #3142C6;
 }
 
 * {

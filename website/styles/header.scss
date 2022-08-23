@@ -1,7 +1,7 @@
 .header{
     height: 64px;
     width: 100%;
-    background-color: #fff;
+    background-color: $text-color-white;
     display: flex;
     align-items: center;
     padding-left: 15px;
@@ -25,7 +25,7 @@
     &__menu-button {
         width: 58px;
         border: none;
-        border-left: 1px solid #00000026;
+        border-left: 1px solid $color-grey;
         height: 100%;
         margin-left: auto;
         background: transparent;
@@ -67,7 +67,7 @@
     }
 
     &__item {
-        color: #2B292D;
+        color: $color-dark;
         text-decoration: none;
         line-height: 25px;
         font-size: 18px;
@@ -114,7 +114,7 @@
     &__description {
         font-size: 18px;
         line-height: 25px;
-        font-size: #2B292D;
+        font-size: $color-dark;
         opacity: 0.6;
     }
 
@@ -126,10 +126,10 @@
 }
 
 .top-section {
-    background-color: #F3C6BD;
+    background-color: $color-pink;
 
     @include for-large-up {
-        background-color: #F3C6BD;
+        background-color: $color-pink;
         padding-top: 39px;
     }
 }

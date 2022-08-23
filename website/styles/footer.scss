@@ -17,7 +17,7 @@
         }
     }
     &__line{
-        border-top: 1px solid #2B292D;
+        border-top: 1px solid $color-dark;
         width: 100%;
         opacity: 0.1;
         margin: 0;
@@ -90,7 +90,7 @@
         font-weight: 700;
         font-size: 22px;
         line-height: 28px;
-        color: #2B292D;
+        color: $color-dark;
         margin: 0;
     }
     &__list{
@@ -128,7 +128,7 @@
     }
     &__items{
         text-decoration: none;
-        color: #2B292D;
+        color: $color-dark;
         opacity: 0.6;
         margin-right: 22px;
 }
