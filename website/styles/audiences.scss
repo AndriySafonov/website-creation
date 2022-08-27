@@ -1,0 +1,105 @@
+.audiences{
+    padding: 50px 15px;
+    background-color: $color-light-blue;
+   
+    &__title{
+        font-size: 22px;
+        line-height: 34px;
+        text-align: center;
+        margin: 0;
+    }
+
+    &__subtitle{
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -0.357143px;
+        margin: 0;
+        margin-top: 17px;
+    }
+
+    &__description{
+        min-width: 290px;
+        height: 136px;
+        font-size: 24px;
+        line-height: 34px;       
+        text-align: center;
+        margin: 0;
+        margin-top: 18px;
+    }
+
+    &__actions-btn{
+        padding: 0;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    &__learn-more-btn{
+        padding: 0;
+        background-color: $color-white;
+        color: $text-color-black;
+        min-width: 290px;
+        height: 48px;
+        font-size: 18px;
+        line-height: 13px;      
+        text-align: center;
+        font-weight: 700;
+        border-radius: 2px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+        border: none;
+        margin-top: 12px;
+        margin-bottom: 25px;
+    }
+
+    &__list{
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__item{
+        background-color: $color-white;
+        list-style-type: none;
+        min-width: 290px;
+        height: 300px;
+        margin-top: 15px;
+        text-align: center;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+    }
+
+    &__item-blue{
+        background-color: $color-blue;
+        list-style-type: none;
+        min-width: 290px;
+        height: 300px;
+        margin-top: 15px;
+        text-align: center;
+        box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
+        border-radius: 8px;
+    }
+
+    &__item-icon{
+        margin: 0;
+        margin-top: 22px;
+    }
+
+    &__item-description{
+        margin: 0;
+        margin-top: 22px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    &__item-description-blue{
+        margin: 0;
+        margin-top: 22px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        color: $text-color-white;
+    }
+}
+

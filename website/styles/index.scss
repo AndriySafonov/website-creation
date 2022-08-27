@@ -4,6 +4,7 @@
 @import 'about.scss';
 @import 'customers.scss';
 @import 'features.scss';
+@import 'audiences.scss';
 @import 'footer.scss';
 @import 'header.scss';
 @import 'headline.scss';
@@ -28,4 +29,5 @@ html{
             display: flex;
             flex-direction: column;
     }
+    
 }
