@@ -1,6 +1,13 @@
 .audiences{
     padding: 50px 15px;
     background-color: $color-light-blue;
+
+    @include for-large-up {
+        padding: 108px 0 110px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
    
     &__title{
         font-size: 22px;
@@ -16,6 +23,15 @@
         letter-spacing: -0.357143px;
         margin: 0;
         margin-top: 17px;
+
+        @include for-large-up {
+            margin-top: 24px;
+            font-size: 56px;
+            line-height: 56px;
+            letter-spacing: -0.5px;
+            width:555px;
+            height:112px;
+        }
     }
 
     &__description{
@@ -26,19 +42,38 @@
         text-align: center;
         margin: 0;
         margin-top: 18px;
+
+        @include for-large-up {
+            width: 555px;
+            height: 72px;
+        }
     }
 
+    &__actions{
+        @include for-large-up {
+            display: flex;
+            margin-top: 34px;
+        }
+    }
+    
     &__actions-btn{
         padding: 0;
         width: 100%;
         margin-top: 30px;
+
+        @include for-large-up {
+            width: 160px;
+            height: 48px;
+            margin-right: 10px;
+            margin-top: 0;
+        }
     }
 
     &__learn-more-btn{
         padding: 0;
         background-color: $color-white;
         color: $text-color-black;
-        min-width: 290px;
+        width: 100%;
         height: 48px;
         font-size: 18px;
         line-height: 13px;      
@@ -49,6 +84,12 @@
         border: none;
         margin-top: 12px;
         margin-bottom: 25px;
+
+        @include for-large-up {
+            width: 158px;
+            height: 48px;
+            margin: 0;
+        }
     }
 
     &__list{
@@ -56,6 +97,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        @include for-large-up {
+            flex-direction: row;
+            margin-top: 111px;
+        }
     }
 
     &__item{
@@ -67,6 +113,13 @@
         text-align: center;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
         border-radius: 8px;
+
+        @include for-large-up {
+           margin-left: 30px;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
     }
 
     &__item-blue{
@@ -78,6 +131,10 @@
         text-align: center;
         box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
         border-radius: 8px;
+
+        @include for-large-up {
+            margin-left: 30px;
+        }
     }
 
     &__item-icon{
