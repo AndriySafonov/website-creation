@@ -11,23 +11,22 @@
 @import 'tips.scss';
 @import 'order.scss';
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-html{
-    font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
-    color: $color-dark;
+html {
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  color: $color-dark;
 }
-.page{
-    width: 100%;
+.page {
+  width: 100%;
 
-    @include for-large-up {
-            max-width: 1400px;
-            margin: auto;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-    }
-    
+  @include for-large-up {
+    max-width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 }

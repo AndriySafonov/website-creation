@@ -1,20 +1,20 @@
-.action-button{
-    background-color: $color-dark-blue;
-    color: $text-color-white;
-    width: 160px;
-    height: 48px;
-    font-size: 18px;
-    font-weight: 700;
-    border-radius: 2px;
-    border: none;
+.action-button {
+  background-color: $color-dark-blue;
+  color: $text-color-white;
+  width: 160px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 2px;
+  border: none;
 }
-.hide_desctop{  
-    @include for-large-up{
-        display: none;
-    }
+.hide_desctop {
+  @include for-large-up {
+    display: none;
+  }
 }
-.hide_mobile{
-    @include for-large-down{
-        display: none;
-    }
+.hide_mobile {
+  @include for-large-down {
+    display: none;
+  }
 }
