@@ -190,25 +190,25 @@
   right: 0;
 }
 
-.audiences {
+.audience {
   padding: 50px 15px;
   background-color: rgba(0, 161, 198, 0.07);
 }
 @media screen and (min-width: 1400px) {
-  .audiences {
+  .audience {
     padding: 108px 0 110px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
-.audiences__title {
+.audience__title {
   font-size: 22px;
   line-height: 34px;
   text-align: center;
   margin: 0;
 }
-.audiences__subtitle {
+.audience__subtitle {
   font-size: 40px;
   line-height: 40px;
   text-align: center;
@@ -217,7 +217,7 @@
   margin-top: 17px;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__subtitle {
+  .audience__subtitle {
     margin-top: 24px;
     font-size: 56px;
     line-height: 56px;
@@ -226,7 +226,7 @@
     height: 112px;
   }
 }
-.audiences__description {
+.audience__description {
   min-width: 290px;
   height: 136px;
   font-size: 24px;
@@ -236,31 +236,31 @@
   margin-top: 18px;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__description {
+  .audience__description {
     width: 555px;
     height: 72px;
   }
 }
 @media screen and (min-width: 1400px) {
-  .audiences__actions {
+  .audience__actions {
     display: flex;
     margin-top: 34px;
   }
 }
-.audiences__actions-btn {
+.audience__actions-btn {
   padding: 0;
   width: 100%;
   margin-top: 30px;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__actions-btn {
+  .audience__actions-btn {
     width: 160px;
     height: 48px;
     margin-right: 10px;
     margin-top: 0;
   }
 }
-.audiences__learn-more-btn {
+.audience__learn-more-btn {
   padding: 0;
   background-color: #fff;
   color: #000000;
@@ -271,51 +271,49 @@
   text-align: center;
   font-weight: 700;
   border-radius: 2px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border: none;
   margin-top: 12px;
   margin-bottom: 25px;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__learn-more-btn {
+  .audience__learn-more-btn {
     width: 158px;
     height: 48px;
     margin: 0;
   }
 }
-.audiences__list {
+.audience__list {
   padding: 0 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__list {
+  .audience__list {
     flex-direction: row;
     margin-top: 111px;
   }
 }
-.audiences__item {
+.audience__item {
   background-color: #fff;
   list-style-type: none;
   min-width: 290px;
   height: 300px;
   margin-top: 15px;
   text-align: center;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
-    inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__item {
+  .audience__item {
     margin-left: 30px;
   }
-  .audiences__item:first-child {
+  .audience__item:first-child {
     margin-left: 0;
   }
 }
-.audiences__item-blue {
+.audience__item-blue {
   background-color: #3141c5;
   list-style-type: none;
   min-width: 290px;
@@ -326,22 +324,22 @@
   border-radius: 8px;
 }
 @media screen and (min-width: 1400px) {
-  .audiences__item-blue {
+  .audience__item-blue {
     margin-left: 30px;
   }
 }
-.audiences__item-icon {
+.audience__item-icon {
   margin: 0;
   margin-top: 22px;
 }
-.audiences__item-description {
+.audience__item-description {
   margin: 0;
   margin-top: 22px;
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
 }
-.audiences__item-description-blue {
+.audience__item-description-blue {
   margin: 0;
   margin-top: 22px;
   font-weight: 700;
@@ -927,7 +925,7 @@
 
 html {
   font-size: 16px;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: #2b292d;
 }
 
